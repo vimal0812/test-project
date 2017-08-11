@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Owners">
+              <span class="suite-name border-passed">Owners</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Owners">
+                    <span>D:\Vimal\SeleniumProjects\Owners.com\src\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Owners">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Owners">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Owners">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Owners">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Owners">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Owners">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Owners" class="hide-methods passed suite-Owners"> (hide)</a> <!-- hide-methods passed suite-Owners -->
+                      <a href="#" panel-name="suite-Owners" class="show-methods passed suite-Owners"> (show)</a> <!-- show-methods passed suite-Owners -->
+                    </span>
+                    <div class="method-list-content passed suite-Owners">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyingselling.BuyingSellingTabs" hash-for-method="ClickBuying">ClickBuying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyingselling.BuyingSellingTabs" hash-for-method="ClickSelling">ClickSelling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyMenu.BuyMenuChecking" hash-for-method="FrameMaxManagement">FrameMaxManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyMenu.BuyMenuChecking" hash-for-method="FrameMinManagement">FrameMinManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyMenu.BuyMenuChecking" hash-for-method="MenuExpnd">MenuExpnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyMenu.BuyMenuChecking" hash-for-method="OpenApp">OpenApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyingselling.BuyingSellingTabs" hash-for-method="OpenApp">OpenApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="openPage.OpenPageDetails" hash-for-method="OpenPage">OpenPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="buyMenu.BuyMenuChecking" hash-for-method="SearchPage">SearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Owners" title="browsers.Browsers" hash-for-method="browserOpenig">browserOpenig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Owners -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Owners" class="panel Owners">
+          <div class="suite-Owners-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">openPage.OpenPageDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenPage">
+                  </a> <!-- OpenPage -->
+                  <span class="method-name">OpenPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Owners-class-passed -->
+          <div class="suite-Owners-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">buyMenu.BuyMenuChecking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FrameMaxManagement">
+                  </a> <!-- FrameMaxManagement -->
+                  <span class="method-name">FrameMaxManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FrameMinManagement">
+                  </a> <!-- FrameMinManagement -->
+                  <span class="method-name">FrameMinManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MenuExpnd">
+                  </a> <!-- MenuExpnd -->
+                  <span class="method-name">MenuExpnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenApp">
+                  </a> <!-- OpenApp -->
+                  <span class="method-name">OpenApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchPage">
+                  </a> <!-- SearchPage -->
+                  <span class="method-name">SearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Owners-class-passed -->
+          <div class="suite-Owners-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">browsers.Browsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browserOpenig">
+                  </a> <!-- browserOpenig -->
+                  <span class="method-name">browserOpenig</span>
+                  <em>
+(FireFox Open and go to the site)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Owners-class-passed -->
+          <div class="suite-Owners-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">buyingselling.BuyingSellingTabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickBuying">
+                  </a> <!-- ClickBuying -->
+                  <span class="method-name">ClickBuying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSelling">
+                  </a> <!-- ClickSelling -->
+                  <span class="method-name">ClickSelling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenApp">
+                  </a> <!-- OpenApp -->
+                  <span class="method-name">OpenApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Owners-class-passed -->
+        </div> <!-- panel Owners -->
+        <div panel-name="test-xml-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Vimal\SeleniumProjects\Owners.com\src\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Owners&quot;&gt;
+  &lt;test name=&quot;auto&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;browsers.Browsers&quot;/&gt;
+      &lt;class name=&quot;buyingselling.BuyingSellingTabs&quot;/&gt;
+      &lt;class name=&quot;buyMenu.BuyMenuChecking&quot;/&gt;
+      &lt;class name=&quot;openPage.OpenPageDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- auto --&gt;
+&lt;/suite&gt; &lt;!-- Owners --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Owners</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">auto (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Owners</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Owners</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Owners');
+function tableData_Owners() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'browserOpenig')
+data.setCell(0, 2, 'browsers.Browsers')
+data.setCell(0, 3, 20667);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FrameMinManagement')
+data.setCell(1, 2, 'buyMenu.BuyMenuChecking')
+data.setCell(1, 3, 20239);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchPage')
+data.setCell(2, 2, 'buyMenu.BuyMenuChecking')
+data.setCell(2, 3, 9082);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OpenPage')
+data.setCell(3, 2, 'openPage.OpenPageDetails')
+data.setCell(3, 3, 3610);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickBuying')
+data.setCell(4, 2, 'buyingselling.BuyingSellingTabs')
+data.setCell(4, 3, 387);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'FrameMaxManagement')
+data.setCell(5, 2, 'buyMenu.BuyMenuChecking')
+data.setCell(5, 3, 360);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickSelling')
+data.setCell(6, 2, 'buyingselling.BuyingSellingTabs')
+data.setCell(6, 3, 312);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MenuExpnd')
+data.setCell(7, 2, 'buyMenu.BuyMenuChecking')
+data.setCell(7, 3, 235);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'OpenApp')
+data.setCell(8, 2, 'buyingselling.BuyingSellingTabs')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'OpenApp')
+data.setCell(9, 2, 'buyMenu.BuyMenuChecking')
+data.setCell(9, 3, 0);
+window.suiteTableData['Owners']= { tableData: data, tableDiv: 'times-div-Owners'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Owners">
+              </div> <!-- times-div-Owners -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Owners</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Owners" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">browsers.Browsers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">browserOpenig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">buyingselling.BuyingSellingTabs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">20686 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenApp</span>
+                <span class="method-start">20688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickBuying</span>
+                <span class="method-start">20693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickSelling</span>
+                <span class="method-start">21080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">buyMenu.BuyMenuChecking</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenApp</span>
+                <span class="method-start">21392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MenuExpnd</span>
+                <span class="method-start">21407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchPage</span>
+                <span class="method-start">21646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FrameMaxManagement</span>
+                <span class="method-start">30728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FrameMinManagement</span>
+                <span class="method-start">31089 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">openPage.OpenPageDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenPage</span>
+                <span class="method-start">51330 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

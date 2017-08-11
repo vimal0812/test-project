@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Owners]">
+  <test name="auto(failed)">
+    <classes>
+      <class name="buyMenu.BuyMenuChecking">
+        <methods>
+          <include name="SearchPage"/>
+          <include name="MenuExpnd"/>
+          <include name="FrameMaxManagement"/>
+          <include name="FrameMinManagement"/>
+          <include name="OpenApp"/>
+        </methods>
+      </class> <!-- buyMenu.BuyMenuChecking -->
+      <class name="buyingselling.BuyingSellingTabs">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- buyingselling.BuyingSellingTabs -->
+    </classes>
+  </test> <!-- auto(failed) -->
+</suite> <!-- Failed suite [Owners] -->

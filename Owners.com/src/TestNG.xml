@@ -1,0 +1,10 @@
+<suite name="Owners">
+<test name="auto">
+<classes>
+<class name="browsers.Browsers"></class>
+<class name="buyingselling.BuyingSellingTabs"></class>
+<class name="buyMenu.BuyMenuChecking"></class>
+<class name="openPage.OpenPageDetails"></class>
+</classes>
+</test>
+</suite>
